@@ -1,0 +1,28 @@
+#velemenyek {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  
+    .velemeny-container {
+      width: 45vw;
+      display:flex;
+      flex-direction: column;
+  
+  
+  .velemeny {
+    margin: 15px;
+    background-color: #C4C4C4;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px #888;
+
+  
+    i {
+      position: relative;
+      font-size: 4rem;
+      left: -2rem;
+      top: -2rem;
+    }
+  }
+  }
+  }

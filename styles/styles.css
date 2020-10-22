@@ -1,0 +1,428 @@
+#contactbar {
+  background-color: #1F3299;
+  text-align: right;
+  padding: 5px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+#contactbar a {
+  color: #ffffff;
+  margin: auto 1vw;
+}
+
+.nav-container {
+  background: #ffffff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  min-height: 4vh;
+  padding: 1rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 5vh;
+}
+
+nav img {
+  height: 6vh;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: content;
+      -ms-flex: content;
+          flex: content;
+  list-style: none;
+}
+
+nav ul li {
+  margin: auto 1vw;
+}
+
+#hero {
+  background-image: url("/feltoltesek/villanyszereles-budapest-hero.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: #ffffff;
+  padding: 20vh 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#hero p {
+  max-width: 45vw;
+}
+
+#hero .main-btn {
+  font-size: 3.2rem;
+  margin-left: 0;
+}
+
+#szolgaltatasok {
+  margin-top: -25vh;
+}
+
+#szolgaltatasok .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#szolgaltatasok .card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 80vw/4;
+  padding: 2vw 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0 5px #888;
+          box-shadow: 0 0 5px #888;
+}
+
+#szolgaltatasok .card p {
+  font-size: 1.8rem;
+}
+
+#rolunk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#rolunk img {
+  -webkit-transform: rotate(-60deg) scale(0.5);
+          transform: rotate(-60deg) scale(0.5);
+}
+
+#rolunk div {
+  width: 45vw;
+}
+
+#cta {
+  text-align: center;
+  background-image: url("/feltoltesek/villanyszereles-budapest-hibaelharitas.jpg");
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #ffffff;
+}
+
+#velemenyek {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#velemenyek .velemeny-container {
+  width: 45vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#velemenyek .velemeny-container .velemeny {
+  margin: 15px;
+  background-color: #C4C4C4;
+  padding: 15px;
+  border-radius: 4px;
+  -webkit-box-shadow: 4px 4px 8px #888;
+          box-shadow: 4px 4px 8px #888;
+}
+
+#velemenyek .velemeny-container .velemeny i {
+  position: relative;
+  font-size: 4rem;
+  left: -2rem;
+  top: -2rem;
+}
+
+#kapcsolat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #1F3299;
+  color: #ffffff;
+}
+
+#kapcsolat div {
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#kapcsolat form {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 90%;
+  float: right;
+  border-radius: 8px;
+  -webkit-box-shadow: 4px 4px 8px #1F3299;
+          box-shadow: 4px 4px 8px #1F3299;
+}
+
+#kapcsolat form h3 {
+  color: #858383;
+}
+
+#kapcsolat form input[type=text], #kapcsolat form input[type=submit] {
+  width: 100%;
+  padding: 6px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #858383;
+  min-height: 3rem;
+}
+
+#kapcsolat form input[type=checkbox] {
+  margin: 10px 5px auto auto;
+}
+
+#kapcsolat form label {
+  color: #858383;
+  font-size: 1.6rem;
+}
+
+#kapcsolat form a {
+  color: #848EC7;
+}
+
+#kapcsolat form ::-webkit-input-placeholder {
+  font-size: 1.6rem;
+  padding: 4px;
+}
+
+#kapcsolat form :-ms-input-placeholder {
+  font-size: 1.6rem;
+  padding: 4px;
+}
+
+#kapcsolat form ::-ms-input-placeholder {
+  font-size: 1.6rem;
+  padding: 4px;
+}
+
+#kapcsolat form ::placeholder {
+  font-size: 1.6rem;
+  padding: 4px;
+}
+
+#kapcsolat a {
+  text-decoration: underline;
+  color: #ffffff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#kapcsolat p, #kapcsolat a {
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  #hero {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    text-align: center;
+  }
+  #hero p {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  #szolgaltatasok .cards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    gap: 2em 2em;
+        grid-template-areas: ". ." ". .";
+  }
+  #rolunk div {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: center;
+  }
+  #cta .main-btn {
+    font-size: 3rem;
+  }
+  #velemenyek {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  #velemenyek .velemeny-container {
+    width: 100%;
+  }
+  #velemenyek .velemeny {
+    width: 95%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #kapcsolat {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  #kapcsolat form {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 6.5rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 100%;
+}
+
+h2 {
+  font-size: 6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 100%;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+p {
+  margin-top: 1em;
+  font-size: 2rem;
+}
+
+li {
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-btn {
+  background: #3357d9;
+  background: linear-gradient(312deg, #3357d9 0%, #2343b2 100%);
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 1.8em;
+  margin: 1em auto;
+  -webkit-box-shadow: 2px 2px 4px #3357d9;
+          box-shadow: 2px 2px 4px #3357d9;
+}
+
+.main-btn:hover {
+  background: #3357d9;
+  background: linear-gradient(190deg, #2343b2 0%, #3357d9 100%);
+}
+
+section {
+  padding: 5vw;
+}
+/*# sourceMappingURL=styles.css.map */

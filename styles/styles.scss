@@ -1,0 +1,76 @@
+@import "navbar";
+@import "hero";
+@import "szolgaltatasok";
+@import "rolunk";
+@import "cta";
+@import "velemenyek";
+@import "kapcsolat";
+@import "mobile";
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  h1 {
+    font-size: 6.5rem;
+    font-family:'Roboto', sans-serif;
+    line-height: 100%;
+  }
+  h2 {
+    font-size: 6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 100%;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  
+  h4 {
+    font-size: 3rem;
+  }
+  p {
+    margin-top: 1em;
+    font-size: 2rem;
+  }
+  
+  li {
+    font-size: 1.8rem;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+
+.main-btn {
+background: rgb(51,87,217);
+background: linear-gradient(312deg, rgba(51,87,217,1) 0%, rgba(35,67,178,1) 100%);
+color: #ffffff;
+font-weight: bold;
+padding: 8px 12px;
+border-radius: 8px;
+font-size: 1.8em;
+margin: 1em auto;
+box-shadow: 2px 2px 4px rgb(51,87,217);
+
+&:hover {  
+background: rgb(51,87,217);
+background: linear-gradient(190deg, rgba(35,67,178,1) 0%, rgba(51,87,217,1)100%);
+  }
+}
+
+
+section {
+  // min-height: 60vh;
+  padding:5vw;
+}
+

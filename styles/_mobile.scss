@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1000px) {
+
+#hero {
+height: fit-content;
+text-align: center;
+
+p {
+    max-width: fit-content;
+    }
+}
+
+#szolgaltatasok .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 2em 2em;
+        grid-template-areas:
+          ". ."
+          ". .";
+}
+
+#rolunk div {
+    width: fit-content;
+    text-align: center;
+}
+
+#cta {
+    .main-btn  {
+        font-size: 3rem;
+    }
+}
+
+#velemenyek {
+    flex-direction: column;
+    width: 100%;
+
+    .velemeny-container {
+        width: 100%;
+    }
+
+    .velemeny {
+        width: 95%;
+        height: fit-content;
+    }
+}
+
+#kapcsolat {
+flex-direction: column-reverse;
+
+form {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+}
+
+}

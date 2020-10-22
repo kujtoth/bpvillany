@@ -1,0 +1,61 @@
+#kapcsolat {
+    display:flex;
+    background-color: #1F3299;
+    color: #ffffff;
+  
+    div {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    form {
+      background-color: #ffffff;
+      padding: 20px;
+      width: 90%;
+      float: right;
+      border-radius: 8px;
+      box-shadow: 4px 4px 8px #1F3299;
+    
+      h3 {
+        color: #858383;
+      }
+  
+  
+      input[type=text], input[type=submit] {
+      width: 100%;
+      padding: 6px;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 1px solid #858383;
+      min-height: 3rem;
+    }
+  
+    input[type=checkbox] {
+      margin: 10px 5px auto auto;
+  
+    }
+  
+    label {
+      color: #858383;
+      font-size: 1.6rem;
+    }
+  
+    a {
+      color: #848EC7;
+    }
+  
+    ::placeholder{
+      font-size: 1.6rem;
+      padding: 4px;
+    }
+  }
+  
+  a {
+    text-decoration: underline;
+    color: #ffffff;
+    width: fit-content;
+  }
+  p, a {
+    font-size: 1.6rem;
+  }
+  }

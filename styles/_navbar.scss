@@ -1,0 +1,51 @@
+#contactbar {
+    background-color: #1F3299;
+    text-align: right;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 12px;
+
+
+    a{
+      color: #ffffff;
+      margin: auto 1vw;
+    }
+}
+  .nav-container {
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  min-height: 4vh;
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    display: flex;
+    font-size: 5vh;
+  }
+
+  img {
+    height: 6vh;
+  }
+
+  
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex: content;
+    list-style: none;
+
+    li {
+      margin: auto 1vw;
+    }
+  }
+}
