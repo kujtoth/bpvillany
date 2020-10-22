@@ -64,7 +64,7 @@ nav ul li {
 }
 
 #hero {
-  background-image: url("/feltoltesek/villanyszereles-budapest-hero.jpg");
+  background-image: url("../feltoltesek/villanyszereles-budapest-hero.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -156,7 +156,7 @@ nav ul li {
 
 #cta {
   text-align: center;
-  background-image: url("/feltoltesek/villanyszereles-budapest-hibaelharitas.jpg");
+  background-image: url("../feltoltesek/villanyszereles-budapest-hibaelharitas.jpg");
   background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
