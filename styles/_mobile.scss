@@ -1,8 +1,18 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
+
+nav ul {
+    display: none;
+}
+
+@media only screen and (max-width: 760px) {
 
 #hero {
 height: fit-content;
 text-align: center;
+
+.main-btn {
+    margin: 40px auto;
+}
 
 p {
     max-width: fit-content;
@@ -55,4 +65,5 @@ form {
 
 }
 
+}
 }

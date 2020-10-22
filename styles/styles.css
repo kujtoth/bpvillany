@@ -67,7 +67,7 @@ nav ul li {
   background-image: url("../feltoltesek/villanyszereles-budapest-hero.jpg");
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   color: #ffffff;
   padding: 20vh 5vw;
   display: -webkit-box;
@@ -294,12 +294,21 @@ nav ul li {
   font-size: 1.6rem;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
+  nav ul {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) and (max-width: 760px) {
   #hero {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
     text-align: center;
+  }
+  #hero .main-btn {
+    margin: 40px auto;
   }
   #hero p {
     max-width: -webkit-fit-content;
